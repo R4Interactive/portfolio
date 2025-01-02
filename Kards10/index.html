@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="portfolio">
+	<meta name="author" content="Jonathan Palacios">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+	<title>Jonathan Palacios</title>
+	<style>
+		.portfolio-section {
+			margin-bottom: 20px;
+		}
+
+		.portfolio-section button {
+			width: 100%;
+			text-align: left;
+			padding: 10px;
+			font-size: 18px;
+			color: #fff;
+			background-color: #313131;
+			border: none;
+			cursor: pointer;
+			margin-bottom: 5px;
+		}
+
+		.portfolio-section button:hover {
+			background-color: #444;
+		}
+
+		.portfolio-content {
+			display: none;
+			padding: 15px;
+			background-color: #f9f9f9;
+			border: 1px solid #ccc;
+			text-align: justify;
+			/* Justification du texte */
+		}
+
+		.portfolio-content h3 {
+			text-align: center;
+			/* Centrage des titres */
+			margin-bottom: 15px;
+		}
+
+		.portfolio-content img,
+		.portfolio-content video {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body id="top">
+	<!-- header 
+       ================================================== -->
+	<header>
+		<div class="row">
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+				<div class="logo">
+					<a href="index.html"></a>
+				</div>
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Accueil</a></li>
+						<li><a class="smoothscroll" href="#about" title="">A Propos</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Mon Parcours</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+	<!-- intro section -->
+	<section id="intro">
+		<div class="intro-overlay"></div>
+		<div class="intro-content">
+			<div class="row">
+				<div class="col-twelve">
+					<h5>Bienvenue sur mon portfolio</h5>
+					<h1>Je suis Jonathan Palacios</h1>
+					<p class="intro-position">
+						<span>Développeur Web</span>
+						<span>Photographe & Vidéaste</span>
+						<span>Conseiller Immobilier</span>
+					</p>
+					<a class="button stroke smoothscroll" href="#about" title="">En savoir plus</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- about section -->
+	<section id="about">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>À Propos</h5>
+				<h1>Découvrez mon parcours</h1>
+				<div class="intro-info">
+					<img src="images/pic.jpg" alt="Photo de Jonathan Palacios">
+					<p class="lead">Fort d'une expérience variée, je suis un professionnel passionné et déterminé à
+						relever
+						de nouveaux défis. Découvrez mes compétences en développement web, photographie, et immobilier.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- resume section -->
+	<section id="resume" class="grey-section">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Parcours</h5>
+				<h1>Expériences et formations</h1>
+			</div>
+		</div>
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Expériences Professionnelles</h2>
+			</div>
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Conseiller Immobilier</h3>
+							<p>Depuis Octobre 2024</p>
+						</div>
+						<div class="timeline-content">
+							<h4>IAD France</h4>
+							<p>Accompagnement des clients dans leurs projets immobiliers et création de dossiers
+								d'investissement sur des opportunités clés.</p>
+						</div>
+					</div>
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Développeur Web</h3>
+							<p>Depuis Novembre 2021</p>
+						</div>
+						<div class="timeline-content">
+							<h4>R4 Interactive</h4>
+							<p>Chef de projet pour la gestion des réseaux sociaux et création du site web pour PEWR 3
+								Formation, une entreprise spécialisée en sécurité des biens et des personnes.</p>
+						</div>
+					</div>
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Responsable Restauration</h3>
+							<p>Juin 2018 - Avril 2021</p>
+						</div>
+						<div class="timeline-content">
+							<h4>Camping Village L'Esplanade, Corse du Sud</h4>
+							<p>Gestion de l'équipe restauration, création de contenus marketing pour promouvoir les
+								services du camping et satisfaction des clients.</p>
+						</div>
+					</div>
+					<div class="timeline-block">
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
+						<div class="timeline-header">
+							<h3>Directeur Adjoint</h3>
+							<p>2014 - 2018</p>
+						</div>
+						<div class="timeline-content">
+							<h4>Groupe Accor, Horbourg-Wihr</h4>
+							<p>Gestion opérationnelle de l'hôtel et satisfaction client, avec une expertise particulière
+								dans la gestion des services de restauration.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Portfolio</h5>
+				<h1>Quelques réalisations</h1>
+				<p class="lead">Une sélection de projets mettant en valeur mes compétences en photographie, vidéographie
+					et
+					développement web.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Section 1 -->
+			<div class="portfolio-section">
+				<button onclick="togglePortfolio('section1')">Projet PEWR 3 Formation</button>
+				<div id="section1" class="portfolio-content">
+					<video controls src="./images/pewr3formationvideopresentation.mp4"></video>
+					<img src="./images/Pewr3Formation/Capture d'écran 2025-01-02 124440.png"
+						alt="Commentaire PEWR 3 Formation">
+				</div>
+			</div>
+
+			<!-- Section 2 -->
+			<div class="portfolio-section">
+				<button onclick="togglePortfolio('section2')">Photographies & retour client Camping Esplanade</button>
+				<div id="section2" class="portfolio-content">
+					<img src="images/DJI_0018.jpg" alt="Camping Esplanade">
+					<img src="images/IMG_3329 (2).JPG" alt="Camping Esplanade">
+					<img src="images/DJI_0026.JPG" alt="Camping Esplanade">
+					<img src="images/DJI_0045.JPG" alt="Camping Esplanade">
+					<img src="images/cpe_glace.JPG" alt="Camping Esplanade">
+					<img src="images/Camping L'Esplanade/Capture d'écran 2025-01-02 124713.png"
+						alt="Commentaire client">
+					<img src="images/Camping L'Esplanade/Capture d'écran 2025-01-02 124725.png"
+						alt="Commentaire client">
+					<img src="images/Camping L'Esplanade/Capture d'écran 2025-01-02 124733.png"
+						alt="Commentaire client">
+					<img src="images/Camping L'Esplanade/Capture d'écran 2025-01-02 124742.png"
+						alt="Commentaire client">
+					<img src="images/Camping L'Esplanade/Capture d'écran 2025-01-02 124750.png"
+						alt="Commentaire client">
+					<img src="images/Camping L'Esplanade/Capture d'écran 2025-01-02 124757.png"
+						alt="Commentaire client">
+				</div>
+			</div>
+
+			<!-- Section 3 -->
+			<div class="portfolio-section">
+				<button onclick="togglePortfolio('section3')">Groupe Accor</button>
+				<div id="section3" class="portfolio-content">
+					<img src="images/HBW/Capture d'écran 2025-01-02 125539.png" alt="Commentaire avis client">
+					<img src="images/HBW/Capture d'écran 2025-01-02 125549.png" alt="Commentaire avis client">
+					<img src="images/HBW/Capture d'écran 2025-01-02 125554.png" alt="Commentaire client">
+					<img src="images/HBW/Capture d'écran 2025-01-02 125601.png" alt="Commentaire client">
+					<img src="images/HBW/Capture d'écran 2025-01-02 125606.png" alt="Commentaire client">
+					<img src="images/HBW/Capture d'écran 2025-01-02 125612.png" alt="Commentaire client">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="row">
+			<div class="col-six tab-full pull-right social">
+				<ul class="footer-social">
+					<li><a href="https://www.facebook.com/people/Jonathan-Palacios/61567920616298/" target="_blank"><i
+								class="fa fa-facebook"></i></a>
+					</li>
+					<li><a href="hwww.linkedin.com/in/jonathan-palacios-927816337" target="_blank"><i
+								class="fa fa-linkedin"></i></a></li>
+			</div>
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright Jonathan Palacios</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		function togglePortfolio(id) {
+			const content = document.getElementById(id);
+			if (content.style.display === "none" || content.style.display === "") {
+				content.style.display = "block";
+			} else {
+				content.style.display = "none";
+			}
+		}
+	</script>
+</body>
+
+</html>

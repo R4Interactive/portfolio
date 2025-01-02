@@ -20,7 +20,7 @@
 
 		.portfolio-section button {
 			width: 100%;
-			text-align: left;
+			text-align: center;
 			padding: 10px;
 			font-size: 18px;
 			color: #fff;
@@ -28,10 +28,14 @@
 			border: none;
 			cursor: pointer;
 			margin-bottom: 5px;
+			border: 1px solid #444;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+			transition: transform 0.2s, background-color 0.3s;
 		}
 
 		.portfolio-section button:hover {
-			background-color: #444;
+			background-color: #555;
+			transform: scale(1.02);
 		}
 
 		.portfolio-content {
@@ -40,6 +44,8 @@
 			background-color: #f9f9f9;
 			border: 1px solid #ccc;
 			text-align: justify;
+			transition: max-height 0.3s ease-out;
+			overflow: hidden;
 			/* Justification du texte */
 		}
 
@@ -207,8 +213,9 @@
 		<div class="row">
 			<!-- Section 1 -->
 			<div class="portfolio-section">
-				<button onclick="togglePortfolio('section1')">Projet PEWR 3 Formation</button>
+				<button onclick="togglePortfolio('section1')">PEWR 3 Formation</button>
 				<div id="section1" class="portfolio-content">
+					<h3></h3>
 					<video controls src="./images/pewr3formationvideopresentation.mp4"></video>
 					<img src="./images/Pewr3Formation/Capture d'écran 2025-01-02 124440.png"
 						alt="Commentaire PEWR 3 Formation">
@@ -217,7 +224,7 @@
 
 			<!-- Section 2 -->
 			<div class="portfolio-section">
-				<button onclick="togglePortfolio('section2')">Photographies & retour client Camping Esplanade</button>
+				<button onclick="togglePortfolio('section2')">Camping Esplanade</button>
 				<div id="section2" class="portfolio-content">
 					<img src="images/DJI_0018.jpg" alt="Camping Esplanade">
 					<img src="images/IMG_3329 (2).JPG" alt="Camping Esplanade">
@@ -241,7 +248,7 @@
 
 			<!-- Section 3 -->
 			<div class="portfolio-section">
-				<button onclick="togglePortfolio('section3')">Groupe Accor</button>
+				<button onclick="togglePortfolio('section3')">Groupe Accor Retour Client</button>
 				<div id="section3" class="portfolio-content">
 					<img src="images/HBW/Capture d'écran 2025-01-02 125539.png" alt="Commentaire avis client">
 					<img src="images/HBW/Capture d'écran 2025-01-02 125549.png" alt="Commentaire avis client">
@@ -262,7 +269,7 @@
 					<li><a href="https://www.facebook.com/people/Jonathan-Palacios/61567920616298/" target="_blank"><i
 								class="fa fa-facebook"></i></a>
 					</li>
-					<li><a href="hwww.linkedin.com/in/jonathan-palacios-927816337" target="_blank"><i
+					<li><a href="https://www.linkedin.com/in/jonathan-palacios-927816337/" target="_blank"><i
 								class="fa fa-linkedin"></i></a></li>
 			</div>
 			<div class="col-six tab-full">
